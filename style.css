@@ -17,11 +17,12 @@ header{
 
     main{
         margin-top: 50px;
-        text-align: left;
+        text-align: center;
         border-bottom: 1px solid #000000;
-        color: #ffffff;
+        color: hsl(0, 0%, 100%);
         padding: 15px;
-        background-image: url(https://i.pinimg.com/564x/66/b9/58/66b95880cb3434792b017b3e64182735.jpg)
+        background-color: #323b4c;
+    
     }
 
     .box{
@@ -48,11 +49,16 @@ header{
         text-align: center;
         width: 400px;
         color: #737373;
+    
+        padding: 30px;
+    
         
     }
     img{
 border: 2px solid #000000;
 margin: auto;
+text-align: center;
+
     }
 
     p{
@@ -60,6 +66,10 @@ margin: auto;
         width: 600px;
         padding: 20px;
         margin: auto;
+    }
+
+    div{
+        text-align: left;
     }
 
 
